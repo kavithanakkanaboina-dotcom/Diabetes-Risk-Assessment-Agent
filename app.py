@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open("random_forest_model.pkl", "rb") as file:
+with open("diabetes_risk_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.set_page_config(page_title="Diabetes Prediction", page_icon="🩺")
